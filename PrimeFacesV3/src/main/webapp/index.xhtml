@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- Autor: Gabriel Gomez -->
+<!-- Página de inicio - Módulo CDT -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>GomezWebUD - Inicio</title>
+    <h:outputStylesheet library="css" name="estilos.css" />
+</h:head>
+
+<h:body>
+
+    <p:menubar styleClass="menubar-ud">
+        <p:menuitem value="🎓 Inicio"        url="index.xhtml" icon="pi pi-home"/>
+        <p:menuitem value="💰 Simulador CDT" url="cdt.xhtml"   icon="pi pi-dollar"/>
+    </p:menubar>
+
+    <div class="main-container">
+
+        <div class="card-form" style="text-align:center; margin-bottom:30px;">
+            <h1 style="color:var(--accent); font-family:'DM Serif Display',serif;">🎓 GomezWebUD</h1>
+            <p>
+                Simulador de Certificado de Depósito a Término (CDT)
+            </p>
+            <p style="font-size:0.85rem;">
+                Desarrollado con Jakarta Faces + PrimeFaces | Gabriel Gomez | 2026
+            </p>
+        </div>
+
+        <div class="home-cards">
+            <a href="cdt.xhtml" class="home-card">
+                <div class="card-icon">💰</div>
+                <h3>Simulador CDT</h3>
+                <p>Cálculo de intereses y retención en la fuente</p>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer-ud">
+        <strong>Gabriel Gomez</strong> |
+        Programación Web | Grupo 1 |
+        Universidad Distrital Francisco José de Caldas | 2026
+    </div>
+
+</h:body>
+</html>
